@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0BuC0YLNrTQYLVvSbcdSC+Xp1O69KDuFMTX3Xv2pz4c=",
+  "Source": "delteaching-dotnet",
+  "BasePath": "_content/delteaching-dotnet",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

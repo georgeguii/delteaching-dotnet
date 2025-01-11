@@ -1,0 +1,39 @@
+@delteaching_dotnet_HostAddress = https://localhost:7219/api
+
+### Criar uma nova conta bancária
+POST {{delteaching_dotnet_HostAddress}}/contas
+Content-Type: application/json
+
+{
+  "titular": "George",
+  "saldo": 10,
+  "documento": "30030030030"
+}
+
+###
+
+### Listar todas as contas bancárias
+GET {{delteaching_dotnet_HostAddress}}/contas
+
+###
+
+### Buscar uma conta bancária por ID
+GET {{delteaching_dotnet_HostAddress}}/contas/3
+
+###
+
+### Atualizar uma conta bancária existente
+PUT {{delteaching_dotnet_HostAddress}}/contas/3
+Content-Type: application/json
+
+{
+  "saldo": 1000
+}
+
+###
+
+### Excluir uma conta bancária
+DELETE {{delteaching_dotnet_HostAddress}}/contas/1
+
+###
+
